@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Calculadora")
+st.title("yeni te amo pero es que tú eres muy (...) mira lo que tienes que hacer esto es una calculadora de promedios colocas tus cuatro notas y te dará el resultado")
 
 n1 = st.number_input("nota 1", value=0)
 n2 = st.number_input("nota 2", value=0)
