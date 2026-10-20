@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("yeni te amo pero es que tú eres muy (...) mira lo que tienes que hacer esto es una calculadora de promedios colocas tus cuatro notas y te dará el resultado")
-nota = st.number_input( min_value=0.0, max_value=5.0)
+nota = st.number_input( {suma / 4} min_value=0.0, max_value=5.0)
 n1 = st.number_input("nota 1", value=0.0)
 n2 = st.number_input("nota 2", value=0.0)
 n3 = st.number_input("nota 3", value=0.0)
@@ -9,7 +9,7 @@ n4 = st.number_input("nota 4", value=0.0)
 
 if st.button("Calcular"):
     suma = n1 + n2 + n3 + n4
-    st.write(f"tu nota es {suma / 4}")
+   st.write(f"tu nota es {suma / 4}")
 nota = 4.0
 if nota >= 4.5:
   st.write ("exelente")
