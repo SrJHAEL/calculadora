@@ -14,6 +14,6 @@ nota = 4.0
 if nota >= 4.5:
 print ("exelente")
 elif nota >= 3.0:
-print (""esta bien"")
+print ("esta bien")
 else =
-print (""dedicate a otra cosa que el estudio no es lo tuyo"")
+print ("dedicate a otra cosa que el estudio no es lo tuyo")
