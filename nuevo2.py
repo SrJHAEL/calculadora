@@ -13,7 +13,7 @@ if st.button("Calcular"):
    
    if promedio >= 4.5:
         st.write("excelente")
-    elif promedio >= 3.0:
+   elif promedio >= 3.0:
         st.write("esta bien")
-    else:
+   else:
         st.write("dedicate a otra cosa que el estudio no es lo tuyo")
