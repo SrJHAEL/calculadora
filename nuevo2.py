@@ -2,10 +2,10 @@ import streamlit as st
 
 st.title("Calculadora")
 
-n1 = st.number_input("Primer número", value=0.0)
-n2 = st.number_input("Segundo número", value=0.0)
-n3 = st.number_input("Tercer número", value=0.0)
-n4 = st.number_input("Cuarto número", value=0.0)
+n1 = st.number_input("nota_1", value= )
+n2 = st.number_input("nota_2", value= )
+n3 = st.number_input("nota_3", value= )
+n4 = st.number_input("nota_4", value= )
 
 if st.button("Calcular"):
     suma = n1 + n2 + n3 + n4
