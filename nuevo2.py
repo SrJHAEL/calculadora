@@ -8,12 +8,12 @@ n3 = st.number_input("nota 3", min_value=0.0, max_value=5.0)
 n4 = st.number_input("nota 4", min_value=0.0, max_value=5.0)
 
 if st.button("Calcular"):
-    suma = n1 + n2 + n3 + n4
-    st.write(f"tu nota es {suma / 4}")
-nota = 4.0
-if nota >= 4.5:
-     st.write("exelente")
-elif nota >= 3.0:
-     st.write("esta bien")
-else:
-     st.write("dedicate a otra cosa que el estudio no es lo tuyo")
+promedio = (n1 + n2 + n3 + n4) / 4
+    st.write(f"Tu promedio es {promedio:.1f}")
+
+    if promedio >= 4.5:
+        st.write("excelente")
+    elif promedio >= 3.0:
+        st.write("esta bien")
+    else:
+        st.write("dedicate a otra cosa que el estudio no es lo tuyo")
