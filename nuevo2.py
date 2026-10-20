@@ -10,3 +10,10 @@ n4 = st.number_input("nota 4", value=0.0)
 if st.button("Calcular"):
     suma = n1 + n2 + n3 + n4
     st.write(f"el resultado es {suma / 4}")
+nota=4.0 
+if >=4.5
+print (exelente)
+elif >= 3.0
+print (esta bien)
+else =
+print (dedicate a otra cosa que el estudio no es lo tuyo)
