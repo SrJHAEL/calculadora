@@ -12,8 +12,8 @@ if st.button("Calcular"):
     st.write(f"tu nota es {suma / 4}")
 nota = 4.0
 if nota >= 4.5:
-     st.write ("exelente")
+     st.write("exelente")
 elif nota >= 3.0:
-     st.write ("esta bien")
-else :
-     st.write ("dedicate a otra cosa que el estudio no es lo tuyo")
+     st.write("esta bien")
+else:
+     st.write("dedicate a otra cosa que el estudio no es lo tuyo")
